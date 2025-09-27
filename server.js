@@ -33,7 +33,7 @@ connectDB();
 // );
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://gym-manage.vercel.app"], // أو العنوان الصحيح لـ React app
+    origin: ["http://localhost:5173", "https://gym-manage-psi.vercel.app"], // أو العنوان الصحيح لـ React app
     credentials: true, // هذا مهم جداً
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
